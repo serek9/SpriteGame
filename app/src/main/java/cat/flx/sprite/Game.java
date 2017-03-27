@@ -34,7 +34,7 @@ class Game {
         scene.loadFromFile(R.raw.scene);
         bonk.x = 16 * 10;
         bonk.y = 0;
-        count = 0;
+        count = -1;
     }
     Context getContext() { return context; }
     Resources getResources() { return context.getResources(); }
